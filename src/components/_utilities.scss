@@ -1,0 +1,25 @@
+aside {
+    font-family: "Roboto Slab", serif;
+    margin: 0 2%;
+}
+
+img {
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;   
+}
+
+.email {
+    cursor: pointer;
+    color: $text-gray;
+    border-bottom: 2px dotted $text-gray;
+}
+

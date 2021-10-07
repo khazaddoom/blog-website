@@ -1,13 +1,10 @@
 nav {
-    font-family: "Roboto Slab", serif;
-    
     ul {
         li {
             list-style-type: none;
             margin: 0.75rem 0;
             a {
                 color: $text-black--light;
-                text-decoration: none;
                 display: inline-block;
                 cursor: pointer;
             }
@@ -19,5 +16,60 @@ nav {
                 margin-top: 3%;
             }
         }
+    }
+}
+
+.sidenav {
+    &-features {
+        margin: 2rem 0;
+        &__item {
+            margin: 1rem 0;
+            p {
+                font-size: 0.8rem;
+                color: $text-gray;
+                margin: 1rem 0;
+                line-height: 1.25rem;
+                padding-bottom: 1rem;
+            }
+        }
+    }
+}
+
+.getintouch {
+    &-body {
+        font-size: 0.8rem;
+        color: $text-gray;
+        margin: 1rem 0;
+        line-height: 1.25rem;
+        padding-bottom: 1rem;
+    }
+    &-option {
+        margin: 1rem 0;
+        font-size: 0.9rem;
+        &--big {
+          margin: 2rem 0  
+        }
+        img {
+            display: inline;
+            width: 1.5rem;
+        }
+        span {
+            display: block;
+            color: $text-gray;
+        }
+    }
+}
+
+footer {
+    color: $text-gray;
+    font-size: 0.8rem;
+    color: $text-gray;
+    margin: 1rem 0;
+    line-height: 1.25rem;
+    padding-bottom: 1rem;
+    a {
+        cursor: pointer;
+        color: $text-gray;
+        border-bottom: 2px dotted $text-gray;
     }
 }
