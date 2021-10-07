@@ -1,0 +1,12 @@
+h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.125rem;
+    color: $text-black-light;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid $text-red;
+    border-radius: 2px;
+}
