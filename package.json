@@ -2,9 +2,9 @@
   "name": "website-1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/khazaddoom/website-1/issues"
   },
-  "homepage": "https://github.com/khazaddoom/website-1#readme"
+  "homepage": "https://github.com/khazaddoom/website-1#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.42.1"
+  },
+  "dependencies": {}
 }
