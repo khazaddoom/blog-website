@@ -3,12 +3,13 @@ h1 {
     font-family: "Roboto Slab", serif;
     font-size: 1.125rem;
     color: $text-black-light;
+    margin: 2% 0;
 }
 
 h1::after {
     content: '';
     display: block;
     border-bottom: 5px solid $text-red;
-    width: 120%;
+    width: 115%;
     margin-top: 5%;
 }
