@@ -46,16 +46,13 @@ nav {
     &-option {
         margin: 1rem 0;
         font-size: 0.9rem;
+        color: $text-gray;
         &--big {
           margin: 2rem 0  
         }
         img {
             display: inline;
             width: 1.5rem;
-        }
-        span {
-            display: block;
-            color: $text-gray;
         }
     }
 }
