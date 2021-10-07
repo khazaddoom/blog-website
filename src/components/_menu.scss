@@ -46,8 +46,12 @@ nav {
         margin: 1rem 0;
         font-size: 0.9rem;
         color: $text-gray;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
         &--big {
-          margin: 2rem 0  
+          margin: 2rem 0;
+          align-items: flex-start;  
         }
         img {
             display: inline;
