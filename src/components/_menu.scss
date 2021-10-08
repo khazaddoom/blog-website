@@ -15,6 +15,11 @@ nav {
                 margin-top: 3%;
             }
         }
+        li.submenu {
+            background: url('../assets/images/down-arrow.png') no-repeat;
+            background-size: 0.75rem;
+            background-position: top 15% right 2%;
+        }
     }
 }
 
