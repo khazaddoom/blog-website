@@ -1,0 +1,31 @@
+.achievements {
+    font-family: "Roboto Slab", serif;
+    margin: 1.25rem 0 1rem 0;
+    &_main-title {
+        font-size: 1.25rem;
+        margin: 1rem 0;
+        &::after {
+            border-bottom: 3px solid #f56a6a;
+            margin-top: 0.5rem;
+        }
+    }
+    &__item {
+        margin: 1rem 0 2.5rem 0;
+        &-picture {
+            display: block;
+            margin: 1.5rem 0;
+        }
+        &-title {
+            font-size: 1rem;
+            color: $text-black--light;
+        }
+        &-content {
+            font-size: 0.8rem;
+            color: $text-gray;
+            margin: 1rem 0;
+            line-height: 1.25rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+}
