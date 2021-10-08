@@ -27,3 +27,15 @@ address {
     display: none;
 }
 
+.social-items {
+    display: flex;
+    span {
+        margin: 0.35rem;
+        img {
+            width: 1.1rem;
+        }
+    }
+    
+}
+
+
