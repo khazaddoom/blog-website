@@ -21,6 +21,21 @@
             line-height: 1.25rem;
             padding-bottom: 1rem;
         }
+        &-image {
+            width: 6rem;
+            height: 6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem 0rem 2rem 1rem;
+            border: 2px solid $bg-gray--light3;
+            border-radius: 5px;
+            transform: rotate(45deg);
+            img {
+                width: 2rem;
+                transform: rotate(-45deg);
+            }
+        } 
     }
 
 }
