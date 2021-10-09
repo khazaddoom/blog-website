@@ -12,7 +12,7 @@ nav {
             &::after {
                 content: "";
                 display: block;
-                border-bottom: 0.2px solid $bg-gray-light2;
+                border-bottom: 0.2px solid $bg-gray--light2;
                 margin-top: 3%;
             }
         }
@@ -81,7 +81,7 @@ footer {
 }
 
 .hamburger-menu {
-    background-color: $text-gray--light;
+    background-color: $bg-gray--light3;
     width: 2rem;
     border-radius: 3px;
     display: flex;
