@@ -4,5 +4,5 @@ const mainContent = document.getElementById("main-content");
 
 menuHandler.addEventListener("click", function() {
     mainMenu.classList.toggle("hide")
-    mainContent.classList.toggle("hide");
+    mainMenu.style.width = "80%";
 })
