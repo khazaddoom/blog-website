@@ -37,5 +37,17 @@
             }
         } 
     }
+}
 
+@media only screen and (min-width: 600px) {
+    .features {
+        &-item-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: 40vw;
+        }
+    }
 }
