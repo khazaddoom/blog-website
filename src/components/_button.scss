@@ -4,6 +4,7 @@
     border: 2px solid $text-red;
     border-radius: 3px;
     padding: 0.5rem 1.25rem;
+    width: fit-content;
     &:hover {
         cursor: pointer;
     }

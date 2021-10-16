@@ -4,9 +4,10 @@
     &__title {
         font-size: 1rem;
         margin: 1rem 0;
+        width: 100%;
         &::after {
             margin-top: 1rem;
-            width: 190%;
+            width: 100%;
         }
         span {
             color: $text-gray--light;
@@ -19,6 +20,14 @@
         font-size: 1.5rem;
         &::after {
             display: none;
+        }
+    }
+    &__content {
+        &-text {
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
         }
     }
     h5 {
@@ -44,7 +53,7 @@
             width: 50%;
         }
         &__subtitle {
-            font-size: 2.5rem;
+            font-size: 3rem;
         }
     }
 }
