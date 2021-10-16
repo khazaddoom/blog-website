@@ -32,3 +32,19 @@
         padding-bottom: 1rem;
     }
 }
+
+@media only screen and (min-width: 600px) {
+    .hero {
+        &__content {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+        &__image {
+            width: 50%;
+        }
+        &__subtitle {
+            font-size: 2.5rem;
+        }
+    }
+}
