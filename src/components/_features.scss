@@ -48,6 +48,11 @@
         }
         &__item {
             width: 50%;
+            display: flex;
+        }
+        .texts {
+            width: 60%;
+            margin-left: 4rem;
         }
     }
 }
