@@ -144,7 +144,9 @@ footer {
     }
     .desktop-header {
         display: flex;
-        justify-content: space-between;
-        margin: 1rem;
+        justify-content: flex-end;
+        .social-items {
+            margin: -1.5rem 0 0rem 0;
+        }
     }
 }
