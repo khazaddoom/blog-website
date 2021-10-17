@@ -126,6 +126,10 @@ footer {
     top: 0;
 }
 
+.desktop-header {
+    display: none;
+}
+
 @media only screen and (min-width: 1024px) {
     aside {
         display: block !important;
@@ -137,5 +141,10 @@ footer {
 
     .mobile-header {
         display: none;
+    }
+    .desktop-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem;
     }
 }

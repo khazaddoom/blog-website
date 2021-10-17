@@ -5,7 +5,11 @@ input {
     padding: 0.5rem 0.5rem;
     color: #9fa3a6;
     width: 90%;
-    margin: 5% 5%;
+    margin: 5% 0;
     font-family: "Roboto Slab", serif;
     font-size: 1rem;
+}
+
+input:focus {
+    outline: 2px solid $text-red;
 }
