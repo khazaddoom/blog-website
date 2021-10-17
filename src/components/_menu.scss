@@ -131,7 +131,11 @@ footer {
         display: block !important;
         height: auto;
         position: static;
-        width: 70%;
+        width: 30vw;
         padding: 0 2%;
+    }
+
+    .mobile-header {
+        display: none;
     }
 }
