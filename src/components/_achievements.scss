@@ -28,15 +28,16 @@
         }
     }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1024px) {
     .achievements {
         &-item-container {
             display: flex;
-            justify-content: space-between;
             flex-wrap: wrap;
+            // gap: 0.85rem;
+            justify-content: space-between;
         }
         &__item {
-            width: 40vw;
+            width: 48%;
         }
     }
 }

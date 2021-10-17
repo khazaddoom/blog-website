@@ -39,7 +39,7 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1024px) {
     .features {
         &-item-container {
             display: flex;
@@ -47,7 +47,7 @@
             flex-wrap: wrap;
         }
         &__item {
-            width: 40vw;
+            width: 50%;
         }
     }
 }
